@@ -4,13 +4,13 @@ Handle PayPal Express Checkout.
 Both Instance Payment and Recurring Payment are supported.
 Express Checkout for Digital Goods is also supported.
 
-{<img src="https://secure.travis-ci.org/nov/paypal-express.png" />}[http://travis-ci.org/nov/paypal-express]
+[<img src="https://secure.travis-ci.org/nov/paypal-express.png" />](http://travis-ci.org/nov/paypal-express)
 
-== Installation
+## Installation
 
-  gem install paypal-express
+    gem install paypal-express
 
-== Usage
+## Usage
 
 See Wiki on Github
 https://github.com/nov/paypal-express/wiki
@@ -32,16 +32,14 @@ request = Paypal::Express::Request.new(
 )
 ```
 
-== Note on Patches/Pull Requests
+## Note on Patches/Pull Requests
 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+1. Fork the project.
+2. Make your feature addition or bug fix.
+3. Add tests for it. This is important so I don't break it in a future version unintentionally.
+4. Commit, do not mess with rakefile, version, or history. (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+5. Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2011 nov matake. See LICENSE for details.
