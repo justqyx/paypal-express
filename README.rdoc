@@ -19,6 +19,19 @@ Play with Sample Rails App
 https://github.com/nov/paypal-express-sample
 https://paypal-express-sample.heroku.com
 
+**Extra**
+
+`Paypal::Express::Request` now support set environment for PayPal endpoint
+
+```ruby
+request = Paypal::Express::Request.new(
+  :username    => SET_YOUR_OWN,
+  :password    => SET_YOUR_OWN,
+  :signature   => SET_YOUR_OWN,
+  :environment => :sandbox # or `:production`
+)
+```
+
 == Note on Patches/Pull Requests
 
 * Fork the project.
